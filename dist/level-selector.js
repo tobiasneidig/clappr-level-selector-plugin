@@ -1,10 +1,10 @@
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory(require("Clappr"));
+		module.exports = factory(require("clappr"));
 	else if(typeof define === 'function' && define.amd)
 		define(["Clappr"], factory);
 	else if(typeof exports === 'object')
-		exports["LevelSelector"] = factory(require("Clappr"));
+		exports["LevelSelector"] = factory(require("clappr"));
 	else
 		root["LevelSelector"] = factory(root["Clappr"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_2__) {
